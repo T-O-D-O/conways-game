@@ -1,0 +1,17 @@
+{
+  "name": "gol",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx parcel build src/index.html -d docs"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
