@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "npx parcel build src/index.html -d docs"
+    "build": "npx parcel build src/index.html -d docs --public-url /conways-game/"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.168",
